@@ -1,0 +1,278 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lg-logo {
+  width: 35px;
+  height: 35px;
+}
+
+.donate-button {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 6px 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 2px 1px;
+  border-radius: 4px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+}
+
+.section-button {
+  align-items: center;
+  border: 2px solid gray;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  height: 36px;
+  justify-content: center;
+  letter-spacing: -.8px;
+  line-height: 24px;
+  min-width: 140px;
+  outline: 0;
+  padding: 0 17px;
+  text-align: center;
+  margin: 10px auto;
+  background-color: #dbdfe2;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+header {
+  border: 1px solid #66768a;
+  text-align: center;
+  padding: 0 40px;
+  background-color: #66768a;
+  height: 400px;
+  width: 100%
+}
+
+header nav {
+  border: 1px solid #66768a;
+  float: left;
+  width: 100%;
+}
+
+header nav ul li {
+  float: left;
+  color: white;
+  margin-top: 10px;
+}
+
+footer {
+  float: left;
+  width: 100%;
+  border: 1px solid #161f2a;
+  padding: 0 40px;
+  background-color: #161f2a;
+  height: 250px;
+}
+
+section {
+  float: left;
+  width: 100% border: 1px solid black;
+  text-align: center;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+.nav-left,
+.nav-right {
+  width: 45%;
+}
+
+.nav-left li {
+  padding: 0 10px;
+}
+
+.nav-logo {
+  width: 10%;
+}
+
+.nav-right {
+  text-align: right;
+}
+
+header h1 {
+  margin: 100px 60px 20px 60px;
+  font-size: 70px;
+  color: white;
+}
+
+header p {
+  margin: 0px 150px;
+  color: white;
+}
+
+header p+p {
+  margin: 50px 150px;
+  color: lightgray;
+}
+
+.first-section,
+.third-section {
+  height: 400px;
+}
+
+.first-section h2,
+.third-section h2 {
+  margin: 80px auto 20px auto;
+  color: #161f2a;
+}
+
+.first-section p,
+.third-section p {
+  margin: 0 350px;
+  color: #161f2a;
+}
+
+.second-section {
+  background-color: #dbdfe2;
+  padding: 100px 200px;
+
+}
+
+.second-section p {
+  font-size: 12px;
+  padding: 0 15px;
+}
+
+.second-section-column-one,
+.second-section-column-two {
+  float: left;
+  width: 50%;
+  background-color: #dbdfe2;
+  color: #161f2a;
+}
+
+.third-section>button {
+  background-color: white;
+  margin: 30px;
+}
+
+.footer-top {
+  float: left;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.footer-left {
+  float: left;
+  width: 85%;
+}
+
+.footer-right {
+  float: right;
+  width: 15%
+}
+
+.footer-right h4 {
+  margin-top: 0;
+  color: white;
+}
+
+.footer-bottom {
+  float: left;
+  width: 100%;
+  border-top: 2px solid gray;
+  margin-top: 10px;
+}
+
+
+.social-media,
+.site-map,
+.contribute {
+  float: left;
+  width: 100%;
+  color: gray;
+}
+
+.site-map {
+  padding-bottom: 15px;
+
+}
+
+
+.social-media ul li,
+.site-map ul li,
+.contribute ul li {
+  float: left;
+  padding: 0 10px 0 0;
+  color: white;
+}
+
+.social-media {
+  padding: 0 0 10px 0;
+}
+
+.site-map h4,
+.contribute h4 {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-right p {
+  margin-bottom: 0;
+  color: white;
+}
+
+.footer-bottom p {
+  float: left;
+  color: white;
+}
+
+.footer-bottom img {
+  float: right;
+  margin-top: 15px;
+}
